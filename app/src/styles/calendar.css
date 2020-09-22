@@ -1,0 +1,177 @@
+.book_calendar_wrapper {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+
+.tp-calendar {
+    background: rgb(255,255,255, .9);
+    top: 62px;
+    width: 95%;
+    max-width: 1000px;
+}
+.booking-calendar {
+}
+
+.header {
+}
+
+.header-content {
+}
+
+.month-label {
+}
+
+.icon-previous {
+}
+
+.icon-next {
+}
+
+.week.names {
+}
+
+.day-box {
+}
+
+.day {
+}
+
+.day-content {
+}
+
+.week {
+}
+
+.day.different-month.not-clickable {
+}
+
+.day.not-clickable {
+}
+
+.day.today.selected.not-clickable {
+}
+
+
+/*Submit btn*/
+
+.calendar_submit-ctn {
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+    background: none !important;
+    margin: 20px auto;
+    box-shadow: none !important;
+}
+.calendar_submit-ctn span {
+    margin-top: 20px !important;
+    padding: 10px 40px !important;
+    border-radius: 2px !important;
+    color: #fff;
+    font-weight: 600;
+    font-family: system-ui !important;
+    max-width: 200px;
+    margin: 0 auto !important;
+    font-size: 14px;
+    background: #12c8b5 !important;
+    cursor: pointer;
+    text-shadow: none !important;
+}
+.calendar_submit-ctn button:hover {
+    background: #1edfcb;
+}
+
+
+/* Choose Calendar */
+.calendar_wrapper {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar_wrapper a {
+    height: 250px;
+    flex: 1;
+    max-width: 400px;
+    background: #fff;
+    box-shadow: 2px 2px 4px #444;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 300ms;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+.choose_calendar-ctn a:hover {
+    transform: scale(1.05);
+    z-index: 3;
+    box-shadow: 6px 6px 20px #222;
+}
+.choose_calendar-ctn a:nth-child(1):hover p{
+    background: rgb(19, 201, 182, 1);
+}
+
+.choose_calendar-ctn a:nth-child(2):hover p{
+    background: rgba(201, 143, 19, 1);
+}
+
+.calendar_wrapper a:hover .choose_calendar-darken{
+    background: rgb(80, 80, 80, .3);
+}
+
+
+.choose_calendar-ctn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 900px;
+}
+
+.choose_calendar-ctn p {
+    position: relative;
+    z-index: 2;
+    background: rgb(19, 201, 182, .8);
+    text-align: center;
+    width: 100%;
+}
+.choose_calendar-ctn a:nth-child(2) p {
+    position: relative;
+    z-index: 2;
+    background: rgba(201, 143, 19, 0.8);
+    text-align: center;
+    width: 100%;
+}
+.choose_calendar-darken {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(80, 80, 80, .4);
+}
+.rearrange_calendar-link {
+    display: none !important;
+}
